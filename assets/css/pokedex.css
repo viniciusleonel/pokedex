@@ -16,6 +16,14 @@
     border-radius: var(--borda);
 }
 
+.pokebola-img {
+    background-image: url(../img/180px-Símbolo_Pokémon_\(Melee\).png);
+    width: auto;    
+    background-repeat: no-repeat;
+    background-size: 70%;  
+    background-position: left;  
+}
+
 .pokemon-details {
     display: flex;
     flex-direction: row;
