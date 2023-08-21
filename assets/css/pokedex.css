@@ -39,6 +39,7 @@
 .pokemon-name{
     font-weight: 700;
     margin-bottom: .188rem;
+    text-transform: capitalize;
 }
 
 .pokemon-number {
@@ -63,4 +64,5 @@
     color: var(--cor-branco);
     width: auto;
     filter: brightness(1.1);
+    text-transform: capitalize;
 }
