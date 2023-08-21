@@ -1,26 +1,34 @@
 
-function convertPokemonToTypesLi (pokemonTypes){
-    return pokemonTypes.map((typesSlot) => `<li class="pokemon-type">${typesSlot.type.name}</li>`)
-}
-
 function convertPokemonToLi(pokemon) {
     return `
-        <li class="pokemon pokebola-img">
+        <li class="pokemon ${pokemon.type} pokebola-img">
                     
-            <span class="pokemon-number">#${pokemon.order}</span>
+            <span class="pokemon-number">#${completeNumber(pokemon.number)}${pokemon.number}</span>
             <span class="pokemon-name">${pokemon.name}</span>
 
             <div class="pokemon-details">
                 <ol class="pokemon-types">
-                    ${convertPokemonToTypesLi(pokemon.types).join("")}
+                    ${pokemon.types.map((type) => `<li class="pokemon-type ${type}">${type}</li>`).join("")}
                 </ol>
                 
-                <img src="${pokemon.sprites.other.dream_world.front_default}" alt="${pokemon.name}">
+                <img src="${pokemon.photo}" alt="${pokemon.name}">
                 
             </div>
 
         </li>       
     `
+}
+
+function completeNumber(num){
+    if (num < 10) {
+        return "00"
+    }
+    else if (num < 100){
+        return "0"
+    }
+    else {
+        return ''
+    }
 }
 
 const pokemonList = document.getElementById('pokemonList')
