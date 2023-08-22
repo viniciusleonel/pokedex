@@ -5,13 +5,15 @@ let offset = 0
 
 function completeNumber(num){
     if (num < 10) {
-        return "00"
+        num = "00" + num
+        return num
     }
     else if (num < 100){
-        return "0"
+        num = "0" + num
+        return num
     }
     else {
-        return ''
+        return num
     }
 }
 
@@ -21,7 +23,7 @@ function loadPokemons(offset,limit){
         `
             <li class="pokemon ${pokemon.type} pokebola-img">
                         
-                <span class="pokemon-number">#${completeNumber(pokemon.idNumber)}${pokemon.idNumber}</span>
+                <span class="pokemon-number">#${completeNumber(pokemon.idNumber)}</span>
                 <span class="pokemon-name">${pokemon.name}</span>
 
                 <div class="pokemon-details">
