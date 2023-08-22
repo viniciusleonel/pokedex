@@ -21,7 +21,7 @@ function loadPokemons(offset,limit){
         `
             <li class="pokemon ${pokemon.type} pokebola-img">
                         
-                <span class="pokemon-number">#${completeNumber(pokemon.number)}${pokemon.number}</span>
+                <span class="pokemon-number">#${completeNumber(pokemon.idNumber)}${pokemon.idNumber}</span>
                 <span class="pokemon-name">${pokemon.name}</span>
 
                 <div class="pokemon-details">

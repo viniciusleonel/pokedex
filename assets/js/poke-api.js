@@ -3,7 +3,7 @@ const pokeApi = {}
 
 function convertPokemonApiDetailToPokemon(pokeDetail) {
     const pokemon = new Pokemon()
-    pokemon.number = pokeDetail.order
+    pokemon.idNumber = pokeDetail.order
     pokemon.name = pokeDetail.name
 
     const types = pokeDetail.types.map((typeSlot) => typeSlot.type.name)

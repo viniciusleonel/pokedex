@@ -26,36 +26,51 @@ body {
 }
 
 .pagination{
-    display: flex;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
     padding: 0.5rem;
-    margin: 0.5rem;
+    margin: 0.5rem; */
 }
 
 .pokebola-button {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     width: 20%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* 
+    
+    
+    width: 20%; */
 }
 
 button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: none;
-    background-color: var(--cor-branco);
+    background-color: transparent;
+    /* border: none;
+    background-color: transparent;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 @media screen and (min-width: 390px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
-    }   
+    }  
+    
+    .pokebola-button {
+        width: 13%;
+    }
     
 }
 
@@ -63,6 +78,10 @@ button {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr;
     }   
+
+    .pokebola-button {
+        width: 10%;
+    }
     
 }
 
@@ -77,5 +96,9 @@ button {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }   
+
+    .pokebola-button {
+        width: 8%;
+    }
     
 }
