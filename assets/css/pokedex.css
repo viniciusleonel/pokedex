@@ -15,6 +15,10 @@
     border-radius: var(--borda);
 }
 
+.pokemon:hover {
+    box-shadow: 0 0 15px #2b3249;
+}
+
 .pokebola-img {
     background-image: url(../img/180px-Símbolo_Pokémon_\(Melee\).png);
     width: auto;    

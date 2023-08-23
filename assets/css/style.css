@@ -14,8 +14,19 @@
     --borda: 1.5rem;
 }
 
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-content{
+    margin: .3rem;
+    padding: .5rem;
+}
+
 body {
-    background-color: var(--cor-cinza-claro);
+    background: linear-gradient(90deg, rgba(237, 101, 88, 0.929) 0%, rgba(70, 100, 234, 0.82),rgb(77, 197, 103) 100%);
 }
 
 .content {
@@ -35,6 +46,28 @@ button {
     align-items: center;
     border: none;
     background-color: transparent;
+}
+
+.contact-information{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    margin: 2rem;
+}
+
+.contact-details{
+    border: 2px solid #77befe;
+    text-align: center;
+    border-radius: 8px;
+    text-decoration: none;
+    display: flex;
+    padding: .2rem;
+}
+
+.contact-details:hover{
+    border: 3px solid #77befe;
 }
 
 @media screen and (min-width: 390px) {

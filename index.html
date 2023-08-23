@@ -16,26 +16,12 @@
 </head>
 <body>
     <section class="content">
-        <h1>Pokedex</h1>
+        <div class="header" >
+            <h1 class="header-content">Pokedex</h1>
+            <h3 class="header-content">1ª Geração</h3>
+        </div>
 
-        <ol id="pokemonList" class="pokemons">
-            <!-- <li class="pokemon pokebola-img">
-                
-                <span class="pokemon-number">#001</span>
-                <span class="pokemon-name">Bulbasaur</span>
-                
-                <div class="pokemon-details">
-                    <ol class="pokemon-types">
-                        <li class="pokemon-type">Grass</li>
-                        <li class="pokemon-type">Poison</li>
-                    </ol>
-                    
-                    <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg" alt="Bulbasaur">
-                    
-                </div>
-                
-            </li>         -->
-        </ol>
+        <ol id="pokemonList" class="pokemons"></ol>
 
         <div class="pagination" >
             <button id="loadMoreButton"  type="button"><img class="pokebola-button" src="./assets/img/pokebola.png" alt=""></button>
@@ -43,6 +29,13 @@
         </div>
 
     </section>
+
+    <footer>
+        <div class="contact-information">
+            <a class="contact-details" href="https://www.linkedin.com/in/viniciuslps/"><img src="./assets/img/linkedin.png" alt="Logo do LinkedIn"></a>
+            <a class="contact-details" href="https://github.com/viniciusleonel"><img src="./assets/img/github.png" alt="Logo do GitHub"></a>
+        </div>
+    </footer>
 
     <script src="./assets/js/pokemon-model.js"></script>
     <script src="./assets/js/poke-api.js"></script>
