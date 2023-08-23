@@ -32,7 +32,3 @@ pokeApi.getPokemons = (offset = 0, limit = 12) => {
         .then((pokemonsDetails) => pokemonsDetails)
         .catch((error) => console.log(error))
 }
-
-// pokeApi.getPokemons().then((pokemons = []) => { 
-//     pokemonList.innerHTML = pokemons.map(convertPokemonToLi).join("")
-// }) 

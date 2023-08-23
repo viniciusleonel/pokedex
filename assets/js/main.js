@@ -55,6 +55,6 @@ loadMoreButton.addEventListener('click', () => {
         loadMoreButton.parentElement.removeChild(loadMoreButton)
         
     } else {
-        loadPokemons(offset,limit)
+        loadPokemons(offset,limit*2)
     }
 })
