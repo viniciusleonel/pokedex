@@ -31,7 +31,7 @@
 }
 
 .pokemon-details img{
-    max-width: 100%;
+    max-width: 8rem;
     height: var(--size-img);
     display: flex;
 }

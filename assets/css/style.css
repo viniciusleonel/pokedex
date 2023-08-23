@@ -25,28 +25,8 @@ body {
     height: 100vh;
 }
 
-.pagination{
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    padding: 0.5rem;
-    margin: 0.5rem; */
-}
-
 .pokebola-button {
     width: 20%;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-    /* 
-    
-    
-    width: 20%; */
 }
 
 button {
@@ -55,12 +35,6 @@ button {
     align-items: center;
     border: none;
     background-color: transparent;
-    /* border: none;
-    background-color: transparent;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; */
 }
 
 @media screen and (min-width: 390px) {
