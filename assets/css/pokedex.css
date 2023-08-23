@@ -27,6 +27,10 @@
     background-position: left;  
 }
 
+.pokebola-button:hover{
+    cursor: pointer;
+}
+
 .pokemon-details {
     display: flex;
     flex-direction: row;
