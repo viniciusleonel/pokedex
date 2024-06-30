@@ -4,7 +4,7 @@
 
 ![image](https://github.com/viniciusleonel/pokedex/assets/124933333/75555a17-24d6-4482-bc8d-9cc392614a19)
 
-## Link da Pokedex: [https://pong-game-p5js-gx87.vercel.app/](https://pokedex-three-flame.vercel.app/)
+## Link da Pokedex: [Pokedex](https://pokedex-viniciusleonel.vercel.app/)
 
 ## Ferramentas utilizadas:
 
